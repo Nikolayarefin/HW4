@@ -232,7 +232,6 @@ a {
   width: 270px;
   height: 120px;
   border-radius: 4px;
-  border: 1px solid #afb1b8;
   background: #f5f4fa;
   display: flex;
   align-items: center;
@@ -270,9 +269,7 @@ a {
 /* ================employees========== */
 
 .employees{
-  padding-top: 0;
   background: #F5F4FA;
-  max-width: 1600px;
   margin: 0 auto;
 }
 
@@ -350,7 +347,7 @@ a {
 /* =============client============= */
 
 .client {
-  padding-top: 0;
+ 
 }
 
 .client-tile {
@@ -407,9 +404,11 @@ a {
 .footer-soc-tile {
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.14;
+  line-height: 16px;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
   margin-bottom: 20px;
 }
 
